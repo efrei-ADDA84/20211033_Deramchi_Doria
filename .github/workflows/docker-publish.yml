@@ -23,6 +23,6 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v4
         with:
-          context: ./20211033_Deramchi_Doria/dockerfile
+          context: dockerfile
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/docker101:latest
