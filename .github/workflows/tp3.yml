@@ -37,4 +37,4 @@ jobs:
             name: "20211033"
             location: 'france central' 
             ports: '8081'
-            environment-variables: API_KEY = ${{ secrets.API_KEY }}
+            environment-variables: API_KEY=${{ secrets.API_KEY }}
